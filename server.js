@@ -25,7 +25,7 @@ const commercialRouter = require('./routes/commercial');
 
 //route dosyasindan import edilen users dosyasi burada islenerek DB ye gonderiliyor
 app.use('/coaching', coachingRouter);
-app.use('/commerciall', commercialRouter);
+app.use('/commercial', commercialRouter);
 
 
 
